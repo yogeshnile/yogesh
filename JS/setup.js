@@ -16,3 +16,7 @@ document.addEventListener('DOMContentLoaded', function () {
   var intro = document.getElementById('intro');
   intro.style.marginTop = - intro.offsetHeight / 2 + 'px';
 }, false);
+
+function AutoRefresh( t ) {
+	setTimeout("location.reload(true);", t);
+}
